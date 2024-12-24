@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 3em;
+  color: #333;
+}
+
+header .title {
+  font-size: 1.2em;
+  color: #555;
+  margin-top: 10px;
+}
+
+section {
+  padding: 50px 0;
+}
+
+section h2 {
+  font-size: 2.5em;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.project {
+  width: calc(50% - 15px);
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.project h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.project-link {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.project-link:hover {
+  background-color: #0056b3;
+}
+
+.contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact li {
+  margin: 10px 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+
+footer p {
+  font-size: 1em;
+}
